@@ -12,7 +12,7 @@
 
 ### The Google Chrome Console (2)
 
-1. Google Chrome Console (...)
+1. Google Chrome Console (✓)
 
 <h2 align="center">Лицензия</h2>
 
