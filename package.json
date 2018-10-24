@@ -1,0 +1,14 @@
+{
+  "name": "udemy-modern-js-course",
+  "version": "1.0.0",
+  "description": "Modern JavaScript The Complete Course - Build +10 Projects",
+  "repository": "https://github.com/newbornfrontender/udemy-modern-js-course.git",
+  "author": "Infant Frontender <newbornfrontender@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "live-server"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}
