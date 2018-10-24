@@ -1,3 +1,4 @@
-let name = prompt("What's your name?");
+var learning = 'Modern JavaScript';
+var learning = 'JavaScript';
 
-document.getElementById('welcome').innerHTML = 'Welcome, ' + name;
+console.log(learning);

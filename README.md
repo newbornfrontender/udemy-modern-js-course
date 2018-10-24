@@ -12,7 +12,7 @@
 
 ### JavaScript Fundamentals (3)
 
-1. Variables with var (...)
+1. Variables with var (✓)
 2. Variables with let (...)
 3. Variables with const (...)
 4. Data Types in JavaScript (...)
