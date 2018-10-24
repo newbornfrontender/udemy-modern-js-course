@@ -10,7 +10,7 @@
 
 > Добавлено для удобства навигации
 
-<h3 align="center">Introduction</h3>
+### Introduction
 
 1. Overview of the Projects
 2. Course Structure
