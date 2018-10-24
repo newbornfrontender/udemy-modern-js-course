@@ -10,7 +10,7 @@
 
 > Добавлено для удобства навигации
 
-### Introduction
+### Introduction (1)
 
 1. Overview of the Projects (✓)
 2. Course Structure (✓)
