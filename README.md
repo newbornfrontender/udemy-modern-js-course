@@ -14,7 +14,7 @@
 
 1. Variables with var (✓)
 2. Variables with let (✓)
-3. Variables with const (...)
+3. Variables with const (✓)
 4. Data Types in JavaScript (...)
 5. Strings in JavaScript (...)
 6. String Methods Part 1 (...)
