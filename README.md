@@ -17,7 +17,7 @@
 3. Variables with const (✓)
 4. Data Types in JavaScript (✓)
 5. Strings in JavaScript (✓)
-6. String Methods Part 1 (...)
+6. String Methods Part 1 (✓)
 7. String Methods Part 2 (...)
 8. Numbers and the Methods available for Number part 1 (...)
 9. Numbers and the Methods available for Number part 2 (...)

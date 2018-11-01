@@ -1,5 +1,9 @@
-let msg = 'Modern';
+let email = 'email@email.com';
 
-msg += ' JavaScript!';
+let check = email.indexOf('@');
 
-console.log(msg);
+if (check > 0) {
+  console.log(`Valid email, output: ${check}`);
+} else {
+  console.log(`Invalid email, output: ${check}`);
+};
