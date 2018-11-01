@@ -1,4 +1,5 @@
-let sym = Symbol('This is a symbol');
+let msg = 'Modern';
 
-console.log(sym);
-console.log(`sym = ${typeof sym}`)
+msg += ' JavaScript!';
+
+console.log(msg);
