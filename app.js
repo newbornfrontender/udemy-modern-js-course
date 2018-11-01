@@ -1,7 +1,7 @@
-let num1 = 30;
-let num2 = 5;
-let num3 = -12;
+const cartItems = 20 + 30 + 40 + 20;
+const discount = (cartItems / 100) * 2;
+const totalPay = cartItems - discount;
 
-let result = Math.min(999, 99);
-
-console.log(result);
+console.log(`Total: ${cartItems}`);
+console.log(`Discount: ${discount}`);
+console.log(`Pay: $${totalPay}`);
