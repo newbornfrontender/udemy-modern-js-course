@@ -1,9 +1,6 @@
-let email = 'email@email.com';
+let msg = 'repeat, ';
 
-let check = email.indexOf('@');
+let output = msg.repeat(5);
+output.slice(0, -2);
 
-if (check > 0) {
-  console.log(`Valid email, output: ${check}`);
-} else {
-  console.log(`Invalid email, output: ${check}`);
-};
+console.log(output);
