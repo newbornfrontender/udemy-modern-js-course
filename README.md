@@ -19,7 +19,7 @@
 5. Strings in JavaScript (✓)
 6. String Methods Part 1 (✓)
 7. String Methods Part 2 (✓)
-8. Numbers and the Methods available for Number part 1 (...)
+8. Numbers and the Methods available for Number part 1 (✓)
 9. Numbers and the Methods available for Number part 2 (...)
 10. Comparison Operators (...)
 11. Converting Strings into Numbers Part 1 (...)

@@ -1,6 +1,7 @@
-let msg = 'repeat, ';
+let num1 = 30;
+let num2 = 5;
+let num3 = -12;
 
-let output = msg.repeat(5);
-output.slice(0, -2);
+let result = Math.min(999, 99);
 
-console.log(output);
+console.log(result);
