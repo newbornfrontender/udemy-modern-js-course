@@ -21,7 +21,7 @@
 7. String Methods Part 2 (✓)
 8. Numbers and the Methods available for Number part 1 (✓)
 9. Numbers and the Methods available for Number part 2 (✓)
-10. Comparison Operators (...)
+10. Comparison Operators (✓)
 11. Converting Strings into Numbers Part 1 (...)
 12. Converting Strings into Numbers Part 2 (...)
 13. Converting Numbers into Strings (...)
