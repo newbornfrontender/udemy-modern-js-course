@@ -1,38 +1,7 @@
-const product1 = 'Pizza';
-const product2 = 'Hamburger';
+const nums = [10, 20, 30, 40, 50];
 
-const price1 = 30;
-const price2 = 40;
-
-// Old method
-
-let html;
-
-html =
-  '<ul>' +
-    '<li>Item: ' + product1 + '</li>' +
-    '<li>Price: ' + price1 + '</li>' +
-    '<li>Item: ' + product2 + '</li>' +
-    '<li>Price: ' + price2 + '</li>' +
-    '<li>Total: ' + ( price1 + price2 ) + '</li>' +
-  '<ul>';
-
-// New method
-
-html = `
-<ul>
-  <li>Item: ${product1}</li>
-  <li>Price: ${price1}</li>
-  <li>Item: ${product2}</li>
-  <li>Price: ${price2}</li>
-  <li>Total: ${total(price1, price2)}</li>
-</ul>
-`;
-
-function total(price1, price2) {
-  return `$${price1 + price2}`;
+function print(arr, pos) {
+  return arr[pos];
 };
 
-let app = document.querySelector('#app');
-
-app.innerHTML = html;
+console.log(print(nums, 3));
