@@ -24,7 +24,7 @@
 10. Comparison Operators (✓)
 11. Converting Strings into Numbers Part 1 (✓)
 12. Converting Strings into Numbers Part 2 (✓)
-13. Converting Numbers into Strings (...)
+13. Converting Numbers into Strings (✓)
 14. Template Strings in JavaScript (...)
 15. Arrays and How to create Arrays in JavaScript (...)
 16. Useful Methods when working with Arrays (...)

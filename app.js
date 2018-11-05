@@ -1,5 +1,8 @@
-let num;
+let output;
 
-num = '20.355555';
+output = String(new Date());
+output = [1, 2, 3].toString();
+output = { name: 'Jack' }.toString();
 
-console.log(Number(num).toFixed(4));
+console.log(output);
+console.log(typeof output === 'string');
