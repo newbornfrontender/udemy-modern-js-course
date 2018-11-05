@@ -1,4 +1,5 @@
-const num1 = '11';
-const num2 = 50;
+let num;
 
-console.log(+num1 + num2);
+num = '20.355555';
+
+console.log(Number(num).toFixed(4));
