@@ -1,3 +1,4 @@
-console.log(null == undefined);
-console.log(typeof null);
-console.log(typeof undefined);
+const num1 = '11';
+const num2 = 50;
+
+console.log(+num1 + num2);
