@@ -28,7 +28,7 @@
 14. Template Strings in JavaScript (✓)
 15. Arrays and How to create Arrays in JavaScript (✓)
 16. Useful Methods when working with Arrays (✓)
-17. Remove Elements from an Array (...)
+17. Remove Elements from an Array (✓)
 18. Sorting Arrays and Other Methods (...)
 19. JavaScript Objects (...)
 20. Const Variables with Arrays & Objects (...)
