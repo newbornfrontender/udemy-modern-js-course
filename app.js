@@ -1,7 +1,15 @@
 'use strict';
 
-function addition(num1 = 0, num2 = 0) {
-  return num1 + num2;
+const musicPlayer = {
+  songId: 12,
+  play: function(id = this.songId) {
+    console.log(`Playing song with the ID: ${id}`);
+  },
 };
 
-console.log(addition(2, 3));
+musicPlayer.remove = function(id = this.songId) {
+  console.log(`Removing from the playlist, ID: ${id}`);
+};
+
+musicPlayer.play();
+musicPlayer.remove()
