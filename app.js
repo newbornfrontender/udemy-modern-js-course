@@ -1,28 +1,63 @@
-// const person = {
-//   firstName: 'Bob',
-//   lastName: 'Ross',
-//   job: 'Twitch Painter',
-//   age: 52,
-//   bornYear: function() {
-//     return new Date().getFullYear() - this.age;
-//   },
-// };
+'use strict';
 
-// console.log(person.bornYear());
-
-let cars = [{
-  model: 'Mustang',
-  engine: 6.0,
+const list = [{
+  text: 'Home',
+  path: '/',
 }, {
-  model: 'Camarro',
-  engine: 6.1,
+  text: 'About',
+  path: '/about',
+}, {
+  text: 'Price',
+  path: '/price',
 }];
 
-cars.map(({ model, engine }) => {
-  console.log(`${model}: ${engine}`);
-});
+(function(list) {
+  class NavList extends HTMLElement {
+    constructor() {
+      super();
 
-for (let i = 0; i < cars.length; i++) {
-  const car = cars[i];
-  console.log(`${car.model}: ${car.engine}`);
-};
+      const template = document.createElement('template');
+      template.innerHTML = `
+        <style>
+          :host {
+            display: block;
+            padding: 15px;
+            border: 1px solid green;
+          }
+
+          ::slotted(h1) { color: red; }
+
+          ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+          }
+
+          p { color: orange; }
+        </style>
+
+        <slot></slot>
+        ${list.length
+          ? list.map(({ text, path }, index) => `
+            <ul>
+              <li>
+                <span>${index + 1}</span>
+                <a href="${path}">${text}</a>
+              </li>
+            </ul>
+          `).join('')
+          : '<p>Nothing found</p>'
+        }
+      `;
+
+      this.attachShadow({ mode: 'open' });
+      this.shadowRoot.appendChild(template.content.cloneNode(true));
+    };
+  };
+
+  customElements.define('items-list', NavList);
+})(list);
+
+(function greeting(msg = 'world') {
+  console.log(`Hello ${msg}!`);
+})();
