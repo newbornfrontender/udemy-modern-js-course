@@ -35,7 +35,7 @@
 21. JavaScript Functions - Function Declaration (✓)
 22. JavaScript Functions - Function Expression Part 1 (✓)
 23. JavaScript Functions - Function Expression with Property methods (✓)
-24. Dates in JavaScript (...)
+24. Dates in JavaScript (✓)
 25. Comparison - If, else if & else part 1 (...)
 26. Comparison - If, else if & else part 2 (...)
 27. Comparison - If, else if & else part 3 (...)
