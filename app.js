@@ -1,15 +1,18 @@
-'use strict';
+// let score;
 
-const score = 200;
-
-// if (score == 100) {
-//   console.log('TRUE');
+// if (typeof score != 'undefined') {
+//   console.log(`Score: ${score}`);
 // } else {
-//   console.log('FALSE');
+//   console.log('No score...')
 // }
 
-if (score != 100) {
-  console.log('TRUE');
+// -----------------------------------------------------------------------------
+
+let cash = 200;
+let cartTotal = 300;
+
+if (cash > cartTotal) {
+  console.log('Succesfil payment');
 } else {
-  console.log('FALSE');
+  console.log('Insufficient funds');
 }
