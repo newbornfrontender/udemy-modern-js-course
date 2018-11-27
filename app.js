@@ -1,18 +1,21 @@
-const cars = ['Camaro', 'Mustang', 'Challenger'];
+// for (let i = 0; i < 10; i++) {
+//   console.log(`Number: ${i}`)
+// }
 
-const selected = 1;
-let car;
+// for (let i = 0; i < 10; i++) {
+//   if (i === 2) {
+//     console.log('i === 2');
+//     continue;
+//   }
 
-switch (selected) {
-  case 1:
-    car = cars[0];
+//   console.log(`Number: ${i}`);
+// }
+
+for (let i = 0; i < 10; i++) {
+  if (i === 4) {
+    console.log('i === 4');
     break;
-  case 2:
-    car = cars[1];
-    break;
-  case 3:
-    car = cars[2];
-    break;
+  }
+
+  console.log(`Number: ${i}`);
 }
-
-console.log(`Your selected car is: ${car}`);
