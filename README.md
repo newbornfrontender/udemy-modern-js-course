@@ -39,7 +39,7 @@
 25. Comparison - If, else if & else part 1 (✓)
 26. Comparison - If, else if & else part 2 (✓)
 27. Comparison - If, else if & else part 3 (✓)
-28. One last example with the if operator (...)
+28. One last example with the if operator (✓)
 29. The Switch Statement (...)
 30. For Loops in JavaScript (...)
 31. For Loops in JavaScript: Looping an Array (...)
