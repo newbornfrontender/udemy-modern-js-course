@@ -6,9 +6,11 @@
   "author": "Infant Frontender <newbornfrontender@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "format": "prettier --write **/*.{html,js}",
     "server": "live-server"
   },
   "devDependencies": {
-    "live-server": "^1.2.0"
+    "live-server": "^1.2.0",
+    "prettier": "^1.15.2"
   }
 }
