@@ -42,7 +42,7 @@
 28. One last example with the if operator (✓)
 29. The Switch Statement (✓)
 30. For Loops in JavaScript (✓)
-31. For Loops in JavaScript: Looping an Array (...)
+31. For Loops in JavaScript: Looping an Array (✓)
 32. While & Do While Loops (...)
 33. for, forEach & Maps (...)
 34. Looping Objects in JavaScript (...)
