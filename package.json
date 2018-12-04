@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "format": "prettier --write **/*.{html,js}",
-    "server": "live-server"
+    "server": "live-server",
+    "check": "node app.js"
   },
   "devDependencies": {
     "live-server": "^1.2.0",
