@@ -1,16 +1,15 @@
-try {
-  // something();
-  getClients();
-} catch (err) {
-  console.log(err);
-} finally {
-  console.log('Execute always no matter what!');
-}
+// const question = confirm('Are you sure?')
 
-function getClients() {
-  console.log('Downloading...');
+// if (question) {
+//   console.log('Delete...')
+// } else {
+//   console.log('Nothing happends')
+// }
 
-  setTimeout(() => console.log('Complete...'), 3000);
-}
+// const height = window.outerHeight;
+// const width = window.outerWidth;
 
-getClients();
+const height = window.innerHeight;
+const width = window.innerWidth;
+
+console.log(`height: ${height}, width: ${width}`);
