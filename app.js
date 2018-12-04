@@ -1,10 +1,16 @@
-let myCar = {
-  model: 'Camaro',
-  engine: 6.0,
-  year: 1969,
-  make: 'Chevy',
-};
-
-for (let key in myCar) {
-  console.log(myCar[key]);
+try {
+  // something();
+  getClients();
+} catch (err) {
+  console.log(err);
+} finally {
+  console.log('Execute always no matter what!');
 }
+
+function getClients() {
+  console.log('Downloading...');
+
+  setTimeout(() => console.log('Complete...'), 3000);
+}
+
+getClients();

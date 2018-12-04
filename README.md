@@ -46,7 +46,7 @@
 32. While & Do While Loops (✓)
 33. for, forEach & Maps (✓)
 34. Looping Objects in JavaScript (✓)
-35. Try - Catch - Finally in JavaScript (...)
+35. Try - Catch - Finally in JavaScript (✓)
 36. The WIndow Object - Part 1 (...)
 37. The WIndow Object - Part 2 (...)
 38. Variable Scope (...)
