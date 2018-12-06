@@ -1,15 +1,14 @@
-// const question = confirm('Are you sure?')
+// const width = window.innerWidth;
 
-// if (question) {
-//   console.log('Delete...')
-// } else {
-//   console.log('Nothing happends')
-// }
+// if (width > 1000)
+//   document.body.style.backgroundColor = 'green'
+// else if (width > 500)
+//   document.body.style.backgroundColor = 'blue'
+// else
+//   document.body.style.backgroundColor = 'orange'
 
-// const height = window.outerHeight;
-// const width = window.outerWidth;
+let urlLocation = window.location
 
-const height = window.innerHeight;
-const width = window.innerWidth;
+// window.location.href = 'https://google.jp'
 
-console.log(`height: ${height}, width: ${width}`);
+console.log(urlLocation)

@@ -48,7 +48,7 @@
 34. Looping Objects in JavaScript (✓)
 35. Try - Catch - Finally in JavaScript (✓)
 36. The WIndow Object - Part 1 (✓)
-37. The WIndow Object - Part 2 (...)
+37. The WIndow Object - Part 2 (✓)
 38. Variable Scope (...)
 
 <h2 align="center">Лицензия</h2>
