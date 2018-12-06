@@ -10,6 +10,19 @@
 
 > Добавлено для удобства навигации
 
+### Introduction (1)
+
+1. Overview of the Projects (✓)
+2. Course Structure (✓)
+3. JavaScript Ecosystem (✓)
+4. The Development Environment & Tools needed to complete this course (✓)
+5. Your first JavaScript program (✓)
+6. The Code Snippets in This Course (✓)
+
+### The Google Chrome Console (2)
+
+1. Google Chrome Console (✓)
+
 ### JavaScript Fundamentals (3)
 
 1. Variables with var (✓)
