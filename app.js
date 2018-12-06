@@ -1,14 +1,27 @@
-// const width = window.innerWidth;
+var a = 'a';
+let b = 'b';
+const c = 'c';
 
-// if (width > 1000)
-//   document.body.style.backgroundColor = 'green'
-// else if (width > 500)
-//   document.body.style.backgroundColor = 'blue'
-// else
-//   document.body.style.backgroundColor = 'orange'
+function funcScope() {
+  var a = 'A';
+  let b = 'B';
+  const c = 'C';
 
-let urlLocation = window.location
+  console.log(`FUNC SCOPE: ${a}, ${b}, ${c}`);
+}
 
-// window.location.href = 'https://google.jp'
+funcScope();
 
-console.log(urlLocation)
+if (true) {
+  var a = 'AA';
+  let b = 'BB';
+  const c = 'CC';
+
+  console.log(`BLOCK SCOPE: ${a}, ${b}, ${c}`);
+}
+
+for (var a = 0; a < 3; a += 1) {
+  console.log(a);
+}
+
+console.log(`GLOBAL: ${a}, ${b}, ${c}`);
