@@ -11,7 +11,7 @@
     "start": "node app.js"
   },
   "devDependencies": {
-    "prettier": "^1.15.2",
+    "prettier": "^1.15.3",
     "serve": "^10.1.1"
   }
 }
