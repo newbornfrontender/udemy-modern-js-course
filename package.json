@@ -6,7 +6,7 @@
   "author": "Infant Frontender <newbornfrontender@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "format": "prettier --write **/*.{html,js}",
+    "format": "prettier --write **/*.{html,css,js}",
     "serve": "serve",
     "start": "node app.js"
   },
