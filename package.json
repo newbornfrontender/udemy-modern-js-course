@@ -7,8 +7,7 @@
   "license": "MIT",
   "scripts": {
     "format": "prettier --write **/*.{html,css,js}",
-    "serve": "serve",
-    "start": "node app.js"
+    "serve": "serve"
   },
   "devDependencies": {
     "prettier": "^1.15.3",
