@@ -12,7 +12,7 @@
 
 ### DOM Scripting (4)
 
-1. What's the DOM? (...)
+1. What's the DOM? (✓)
 2. The document keyword - Part 1 (...)
 3. The document keyword - Part 2 (...)
 4. JavaScript functions to select one element - Part 1 (...)
